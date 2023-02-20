@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #fff;
+}
+
+.hover:bg-im1 {
+    background-image: url(../public/images/app-screenshot-savings-in-nigeria.png)
+  }
+  
+.hov:hover .by2 {
+   cursor:pointer;
+   display: inline;
+}
+.hov .by2 {
+    display: none;
+}
+.hov:hover{
+    src: url(../public/images/app-screenshot-savings-in-nigeria.png);
+    transition: all 0.9s ease;
+    
+}
+.card {
+    width: 500px;
+    position: relative;
+    display: inline-block;
+    margin: 50px;
+    margin-top: -150px;
+    margin-bottom: 200px;
+    margin-left: 100px;
+}
+.card .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.card:hover .img-y{
+   visibility: hidden;
+}
+.card:hover .img-top {
+    display: inline;
+    width: 100%;
+    height: 150%;
+    transition: all 0.8s ease-out;
+}
+.dropdown-menu {
+    display: none;
+  }
